@@ -6,6 +6,9 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "fix": "eslint --fix ."
+    "fix": "eslint --fix .",
+    "pm2-male": "pm2 start --name male webui-win-male.js -male male",
+    "pm2-female": "pm2 start --name female webui-win-female.js -male female",
+    "pm2-animal": "pm2 start --name animal webui-win-animal.js -male animal"
   }
 }
